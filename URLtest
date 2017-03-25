@@ -57,7 +57,7 @@ public class URLtest {
 		obj1.put("Url List", url1);
 		String url2=obj1.toJSONString();
 
-		 
+		 //Change the filepath here.If the file doesn't exists ,it creates a new one.
           File fi =new File("C:/glassfish3/jdk7/bin/file2.txt");
     	  if(!fi.exists()){
     	 	fi.createNewFile();
